@@ -1,0 +1,21 @@
+* {
+    font-family:  'Trebuchet MS', sans-serif;
+}
+p {
+    background-color: rgb(240, 150, 150);
+    color: black;
+    font-size: 20px;
+ 
+}
+#big {
+    font-size: 30px;
+    color: blue;
+}
+.cooler {
+    font-size: 25px;
+}
+#four {
+    background-color: rgb(139, 240, 125);
+    font-weight: bold;
+    font-size: 25px;
+}
