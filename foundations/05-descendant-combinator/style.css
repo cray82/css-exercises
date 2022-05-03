@@ -1,0 +1,9 @@
+div {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+
+}
+div p {
+    text-align: center;
+}
