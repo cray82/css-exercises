@@ -13,6 +13,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  max-width: 35ch;
 }
 
 .modal {
@@ -43,13 +48,29 @@ body {
 
 .header {
   font-weight: bold;
+  font-size: 20px;
+
 }
 
 .left {
-  justify-content: flex-start;
+
   flex-direction: row;
   display: flex;
   gap: .5em;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.btns {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  gap: .1em;
 }
 
 .close-button {
@@ -68,6 +89,8 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  max-width: 8em;
+  flex-direction:;
 }
 
 button.continue {
