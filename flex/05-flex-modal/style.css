@@ -13,11 +13,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+
 }
 
 .text {
   max-width: 35ch;
+  margin-bottom: 1em;
 }
 
 .modal {
@@ -25,6 +26,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+
 }
 
 .icon {
@@ -38,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .mainerror {
@@ -49,7 +55,12 @@ body {
 .header {
   font-weight: bold;
   font-size: 20px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .left {
@@ -89,8 +100,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
-  max-width: 8em;
-  flex-direction:;
+
 }
 
 button.continue {
