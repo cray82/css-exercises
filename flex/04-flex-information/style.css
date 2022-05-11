@@ -19,9 +19,17 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.text {
+  max-width: 200px;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0px 52px;
 }
-
 /* do not edit this footer */
 .footer {
   position: fixed;
