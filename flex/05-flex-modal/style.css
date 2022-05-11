@@ -35,6 +35,23 @@ body {
   justify-content: center;
 }
 
+.mainerror {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.left {
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+  gap: .5em;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
