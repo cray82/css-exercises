@@ -70,19 +70,8 @@ body {
   gap: .5em;
 }
 
-.bottom {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 
-}
 
-.btns {
-  flex-direction: row;
-  justify-content: flex-start;
-  display: flex;
-  gap: .1em;
-}
 
 .close-button {
   background: #eee;
