@@ -12,12 +12,14 @@ img {
   font-weight: 900;
   justify-content: center;
   display: flex;
+  margin: 0px 0px 32px 0px;
 }
 
 .plants {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0px 52px;
 }
 
 /* do not edit this footer */
